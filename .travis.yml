@@ -5,10 +5,10 @@ services:
 before_install:
   - docker build -t apagare/docker-react -f Dockerfile.dev .
 
-  script:
+script:
   - docker run apagare/docker-react npm run test -- --coverage
 
-  deploy:
+deploy:
   provier: elasticbeanstalk
   region: "ap-south-1"
   app: "docker"
