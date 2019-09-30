@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="App-title">Welcome To React</h1>
         <p className="App-intro">
-         I was changed On the Feature branch
+         I was changed On Feature branch
         </p>
         <a
           className="App-link"
